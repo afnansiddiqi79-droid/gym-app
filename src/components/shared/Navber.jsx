@@ -18,7 +18,9 @@ import React from "react";
       <li>
         <Link
           href="/my-plan"
-          className="rounded-full px-5 py-2 text-[10px] font-bold uppercase text-gray-400 hover:bg-white/5 hover:text-white"
+          className="rounded-full px-5 py-2 
+          text-[10px] font-bold uppercase text-gray-400 hover:bg-white/5
+           hover:text-white"
         >
           My Plan
         </Link>
