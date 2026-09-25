@@ -1,4 +1,4 @@
-import WorkoutDetails from "@/components/WorkoutDetails";
+import WorkoutDetails from "../../../components/WorkoutDetails";
 import Link from "next/link";
 
 const Detailspage = async ({ params }) => {

@@ -1,8 +1,8 @@
 "use client";
 
 import React from "react";
-import TodayBtn from "@/components/button/TodayBtn";
-import SaveBtn from "@/components/button/SaveBtn";
+import TodayBtn from "./button/TodayBtn";
+import SaveBtn from "./button/SaveBtn";
 const WorkoutDetails = ({ workout }) => {
   return (
     <section className="bg-[#0b0c0f]">

@@ -1,5 +1,5 @@
-import Banner from "@/components/homepage/Banner";
-import Gymcard from "@/components/homepage/gymcard";
+import Banner from "../components/homepage/Banner";
+import Gymcard from "../components/homepage/gymcard";
 import Image from "next/image";
 
 const Home = async () => {

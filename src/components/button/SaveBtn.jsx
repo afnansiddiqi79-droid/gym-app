@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useContext } from "react";
-import { WorkoutContext } from "@/context/WorkoutContext";
+import { WorkoutContext } from "../../context/WorkoutContext";
 import { toast } from "react-toastify";
 
 const SaveBtn = ({ workout }) => {

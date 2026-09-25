@@ -2,8 +2,9 @@
 
 import React, { useContext, useMemo, useState } from "react";
 import Link from "next/link";
+import { WorkoutContext } from "../../context/WorkoutContext";
 import { toast } from "react-toastify";
-import { WorkoutContext } from "@/context/WorkoutContext";
+
 
 const MyPlan = () => {
   const {
