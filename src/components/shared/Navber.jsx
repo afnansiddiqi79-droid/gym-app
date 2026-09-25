@@ -2,8 +2,7 @@
 
 import Link from "next/link";
 import React, { useContext } from "react";
-import { WorkoutContext } from "@/context/WorkoutContext";
-
+import { WorkoutContext } from "../../context/WorkoutContext";
 const Navber = () => {
   const { todayPlan, savedWorkouts } = useContext(WorkoutContext);
 
@@ -30,7 +29,7 @@ const Navber = () => {
   );
 
   return (
-    <div className="w-full bg-[#0b0c0f]">
+    <div className="w-full sticky top-0 z-50 bg-[#0b0c0f]">
       <div className="container mx-auto w-[92%] max-w-7xl">
         <div className="navbar min-h-16 border-b border-white/10 bg-[#0b0c0f] px-0">
 
