@@ -21,7 +21,7 @@ const Banner = () => {
               Train With Intent. Log 
               <br />
               
-              <h1 className=""> Every Set.</h1>
+              <span className=""> Every Set.</span>
            </h1>
           </div>
             {/* Description */}
