@@ -1,36 +1,140 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+🏋️ FitLog — Workout Library & Planner
 
-## Getting Started
+FitLog is a modern and responsive workout library and planning web application built with Next.js. Users can explore workouts, view detailed workout information, add exercises to today's plan, save workouts for later, and manage their personal workout plan.
 
-First, run the development server:
+🌐 Live Website
 
-```bash
+https://gym-app-zzpd.vercel.app/
+
+💻 GitHub Repository
+
+https://github.com/afnansiddiqi79-droid/gym-app
+
+✨ Key Features
+
+- 🏋️ Workout Library — Browse workouts with information such as category, equipment, duration, calories, rating, difficulty, sets, and reps.
+- 🔍 Workout Details — View detailed information, descriptions, tags, specifications, and instructions for each workout.
+- 📋 Today's Plan — Add workouts to today's workout plan and manage selected exercises.
+- 💾 Save for Later — Save workouts and access them from the My Plan section.
+- 🔔 Toast Notifications — Get feedback when workouts are added, saved, removed, or completed.
+- 📊 Sort Workouts — Sort workouts by duration, calories, and rating.
+- ✅ Mark as Done & Remove — Manage exercises from the workout plan.
+- 📱 Responsive Design — Works across mobile, tablet, and desktop devices.
+- 🧭 Dynamic Workout Routes — Each workout has its own dynamic details page.
+- ❌ Custom 404 Page — Displays a custom page for invalid routes.
+- ⏳ Loading State — Shows a loading state while workout data is being loaded.
+
+🛠️ Technologies Used
+
+- Next.js
+- React
+- JavaScript
+- Tailwind CSS
+- DaisyUI
+- React Toastify
+- React Context API
+- Next.js App Router
+- Vercel
+
+📂 Main Routes
+
+Route| Description
+"/"| Workout Library / Home
+"/exercise/[id]"| Workout Details
+"/my-plan"| Today's Plan & Saved Workouts
+
+🧩 Core Functionality
+
+Workout Library
+
+Users can browse workout cards containing important workout information such as:
+
+- Workout name
+- Category
+- Equipment
+- Duration
+- Calories
+- Rating
+- Difficulty
+- Sets & reps
+
+Workout Details
+
+Users can open an individual workout to see its detailed information and instructions. From the details page, workouts can be added to today's plan or saved for later.
+
+My Plan
+
+The My Plan page provides separate sections for:
+
+- Today's Plan
+- Saved Workouts
+
+Users can also view workout statistics and manage their selected exercises.
+
+Sorting
+
+The workout library supports sorting by:
+
+- Duration
+- Calories
+- Rating
+
+📱 Responsive Design
+
+The application is responsive and optimized for:
+
+- 📱 Mobile
+- 📲 Tablet
+- 🖥️ Desktop
+
+🚀 Getting Started
+
+Clone the repository:
+
+git clone https://github.com/afnansiddiqi79-droid/gym-app.git
+
+Navigate to the project:
+
+cd gym-app
+
+Install dependencies:
+
+npm install
+
+Start the development server:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open the application at:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+http://localhost:3000
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+📦 Production Build
 
-## Learn More
+Create a production build:
 
-To learn more about Next.js, take a look at the following resources:
+npm run build
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Start the production server:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+npm start
 
-## Deploy on Vercel
+🎯 Project Purpose
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project was built to practice and demonstrate:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Next.js App Router
+- Dynamic routing
+- React Context API
+- State management
+- API data fetching
+- Responsive UI development
+- Loading and error handling
+- Toast notifications
+- Vercel deployment
+
+👨‍💻 Developer
+
+Afnan Siddiqi
+
+Built with ❤️ using Next.js and React.
