@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Banner from "../components/homepage/Banner";
 import Gymcard from "../components/homepage/gymcard";
 import Image from "next/image";
@@ -22,6 +23,7 @@ const Home = async () => {
   return (
     <>
     <Banner></Banner>
+    
     <section id="library" className="bg-[#0b0c0f] py-14 md:py-20">
   <div className="container mx-auto px-4">
 
@@ -42,15 +44,15 @@ const Home = async () => {
 
     <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3 lg:gap-6">
       {workouts.map((workout) => (
-        <Gymcard
-          key={workout.id}
-          workout={workout}
-        />
-      ))}
+  <Link key={workout.id} href={`/exercise/${workout.id}`}>
+    <Gymcard workout={workout} />
+  </Link>
+))}
     </div>
 
   </div>
 </section>
+
     </>
   );
 }

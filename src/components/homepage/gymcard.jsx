@@ -82,7 +82,7 @@ const Gymcard = ({ workout }) => {
             {workout.sets} sets • {workout.reps} reps
           </span>
 
-          <DetailButton id={workout.id} />
+          <DetailButton />
 
         </div>
       </div>
